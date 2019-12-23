@@ -1,62 +1,64 @@
 /* Police = Roboto, regular, sans serif */  
 .header
 {
-
+border: solid rgb(252, 200, 29);
+background-color: rgb(120, 162, 187);
 }
 
 .aside
 {
-
+border: solid rgb(239, 24, 32);
 }
 
 .article-1
 {
-
+border: solid rgb(185, 122, 89);
 }
 
 .article-2
 {
-
+border: solid rgb(185, 122, 89);
 }
 
 .article-3
 {
-
+border: solid rgb(185, 122, 89);
 }
 
 .article-4
 {
-
+border: solid rgb(185, 122, 89);
 }
 
 .section
 {
-
+border: solid rgb(71, 71, 191);
 }
 
 .article-5
 {
-
+border: solid rgb(185, 122, 89);
 }
 
 .article-6
 {
-
+border: solid rgb(185, 122, 89);
 }
 
 .article-7
 {
-
+border: solid rgb(185, 122, 89);
 }
 
 .article-8
 {
-
+border: solid rgb(185, 122, 89);
 }
 
 .img-cv 
 {
-
+border: solid rgb(249, 244, 20);
+border-radius: 50%;
 }
 .text-bold1
 {
@@ -79,6 +81,31 @@
 }
 
 .text-bold-section
+{
+    
+}
+
+.hr-1
+{
+
+}
+
+.hr-2
+{
+
+}
+
+.hr-3
+{
+    
+}
+
+.hr-4
+{
+    
+}
+
+.hr-5
 {
     
 }
