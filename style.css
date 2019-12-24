@@ -1,13 +1,19 @@
-/* Police = Roboto, regular, sans serif */  
-.header
+body, html
 {
-border: solid rgb(252, 200, 29);
-background-color: rgb(120, 162, 187);
+margin: 0;
+padding: 0;
 }
 
-.aside
+.header-css
+{
+border: solid rgb(252, 200, 29);
+background-color: #64B5F6;
+}
+
+.aside-css
 {
 border: solid rgb(239, 24, 32);
+background-color: #263238;
 }
 
 .article-1
@@ -30,7 +36,7 @@ border: solid rgb(185, 122, 89);
 border: solid rgb(185, 122, 89);
 }
 
-.section
+.section-css
 {
 border: solid rgb(71, 71, 191);
 }
@@ -57,7 +63,7 @@ border: solid rgb(185, 122, 89);
 
 .img-cv 
 {
-border: solid rgb(249, 244, 20);
+border: solid #FFEE58;
 border-radius: 50%;
 }
 .text-bold1
@@ -87,25 +93,30 @@ border-radius: 50%;
 
 .hr-1
 {
-
+margin-top: -20px;    
+margin-bottom: 20px;
 }
 
 .hr-2
 {
-
+margin-top: -10px;    
+margin-bottom: 20px;  
 }
 
 .hr-3
-{
-    
+{ 
+margin-top: -10px;    
+margin-bottom: 20px;      
 }
 
 .hr-4
 {
-    
+margin-top: -10px;    
+margin-bottom: 20px;      
 }
 
 .hr-5
 {
-    
+margin-top: -10px;    
+margin-bottom: 20px;   
 }
