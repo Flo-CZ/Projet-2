@@ -8,6 +8,10 @@ padding: 0;
 {
 border: solid rgb(252, 200, 29);
 background-color: #78909C;
+display: flex;
+align-items: center;
+justify-content: center;
+padding-bottom: 20px;
 }
 
 .aside-css
@@ -168,9 +172,6 @@ text-align: center;
 {
 font-family: 'Roboto', sans-serif;
 text-align: center;
-text-decoration-line: underline;
-text-decoration-style: solid;
-text-decoration-color: rgb(255, 255, 255)
 } 
 
 .text-bold
@@ -224,7 +225,8 @@ padding-left: 10px;
 width: 20%;    
 border: solid 1.5px;    
 color: rgb(255, 255, 255);    
-margin-top: -10px;        
+margin-top: -16px;
+display: block;        
 }
 
 .hr-2
@@ -256,6 +258,12 @@ margin-bottom: 30px;
 
 @media only screen and (min-width: 768px) 
 {
+
+.column
+{
+display: grid;
+border: solid rgb(234, 0, 255);
+}    
    
 .img-cv 
 {  
@@ -265,13 +273,6 @@ display: flex;
 margin: 20px auto;
 width: 50%;
 max-width: 320px;
-}
-
-.column
-{
-display: flex;
-flex-direction: row-reverse;
-border: solid rgb(234, 0, 255);
 }
 
 .aside-css
@@ -284,7 +285,6 @@ order: 1;
 
 .header-css
 {
-position: absolute;
 border: solid rgb(252, 200, 29);
 background-color: #78909C;
 width: 67%;
@@ -294,7 +294,6 @@ width: 67%;
 .section-css
 {
 border: solid rgb(71, 71, 191);
-margin-top: 150px;
 }
 
 }  
@@ -304,8 +303,7 @@ margin-top: 150px;
 
 .header-css
 {
-position: absolute;
- border: solid rgb(252, 200, 29);
+border: solid rgb(252, 200, 29);
 background-color: #78909C;
 width: 61%;
 }    
