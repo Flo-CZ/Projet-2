@@ -262,7 +262,10 @@ margin-bottom: 30px;
 .column
 {
 display: grid;
+width: 100%;
+justify-content: start;
 border: solid rgb(234, 0, 255);
+grid-template-areas: "header" "aside" "section"
 }    
    
 .img-cv 
@@ -276,37 +279,33 @@ max-width: 320px;
 }
 
 .aside-css
-{
+{    
 border: solid rgb(239, 24, 32);
 background-color: #BDBDBD;
 width: 50%;
 order: 1;
+grid-area: aside;
 }
 
 .header-css
-{
+{       
 border: solid rgb(252, 200, 29);
 background-color: #78909C;
 width: 67%;
+grid-area: header;
 }
 
 
 .section-css
-{
+{  
 border: solid rgb(71, 71, 191);
+grid-area: section;
 }
 
 }  
 
 @media only screen and (min-width: 1024px) 
-{
-
-.header-css
-{
-border: solid rgb(252, 200, 29);
-background-color: #78909C;
-width: 61%;
-}    
+{   
     
 }    
 
