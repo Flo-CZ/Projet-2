@@ -262,10 +262,11 @@ margin-bottom: 30px;
 .column
 {
 display: grid;
+grid-template-columns: 2fr 5fr;
 width: 100%;
-justify-content: start;
+height: 100%;
 border: solid rgb(234, 0, 255);
-grid-template-areas: "header" "aside" "section"
+grid-template-areas: "aside" "header" "section"
 }    
    
 .img-cv 
@@ -282,7 +283,7 @@ max-width: 320px;
 {    
 border: solid rgb(239, 24, 32);
 background-color: #BDBDBD;
-width: 50%;
+width: 40%;
 order: 1;
 grid-area: aside;
 }
