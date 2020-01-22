@@ -2,178 +2,108 @@ body, html
 {
 margin: 0;
 padding: 0;
+font-family: 'Roboto', sans-serif;
 }
 
-.header-css
+.header
 {
-background-color: #78909C;
 display: flex;
 align-items: center;
 justify-content: center;
 padding-bottom: 20px;
 }
 
-.aside-css
+#aside
 {
 background-color: #BDBDBD;
 }
 
-.first-name
+.color-name
 {
 color: white;
 }
 
-.contact-box
+.background-color
 {
 background-color: #78909C;
 }
 
-.information-box
-{
-
-background-color: #78909C;
-}
-.competences-box
-{
-background-color: #78909C;
-}
-
-.hobby-box
-{
-background-color: #78909C;
-}
-
-.img-cv 
+#img-cv 
 {  
 
 border-radius: 50%;
 display: flex;
 margin: 20px auto;
-width: 50%;
 margin-top: -10px;
 padding-top: 20px;
-max-width: 320px;
 }
 
-.order-icon
+.icons-align
 {
 display: flex;
 justify-content: space-around;
 margin-top: 1em;
 margin-bottom: 1em;
-padding-right: 2px;
 }
 
-.order-img
-{
-display: flex;
-justify-content: space-around; 
-margin-top: 1em;
-margin-bottom: 1em;   
-}
-
-.img-computer
+.img-icon
 {
 border: solid 3px;
 border-radius: 100%; 
 padding: 3px;   
 }
 
-.img-cycling
-{
-border: solid 3px;
-border-radius: 100%; 
-padding: 3px; 
-}
-
-.img-illustrateur
-{
-border: solid 3px;
-border-radius: 100%; 
-padding: 3px; 
-}
-
-.img-briefcase
+.img-icons-section
 {
 margin-right: 10px;  
 }
 
-.img-pencil
+#title-name
 {
-margin-right: 2px;  
-}
-
-.img-graduation-cap
-{
-margin-right: 10px;    
-}
-
-.text-police1
-{
-font-family: 'Roboto', sans-serif;
 text-align: center;
 }    
 
-.text-police2
+#title-job
 {
-font-family: 'Roboto', sans-serif;
-text-align: center;
-} 
-
-.text-police-align
-{
-font-family: 'Roboto', sans-serif;
 text-align: center;
 } 
 
 .text-police
 {
-font-family: 'Roboto', sans-serif;
 text-align: center;
 } 
 
 .text-aside
 {
-font-family: 'Roboto', sans-serif;
 font-size: 0.9em;
 }
 
 .text-aside-information
 {
 text-align: center;
-font-size: 0.9em; 
+font-size: 1em; 
 padding-right: 10px;       
 }
 
-.text-contact-align
+#text-information-align
 {
-padding-left: 10px;
+padding-left: 10px;        
 }
 
-.text-align-section
+.box-aside-align
 {
-font-family: 'Roboto', sans-serif;    
-}
-
-.text-icone
-{
-font-family: 'Roboto', sans-serif;
-} 
-
-.text-police-align
-{
+text-align: center;        
 padding-top: 10px;
 padding-bottom: 10px;        
 }
 
-.recommandations-text
-{ 
-font-family: 'Roboto', sans-serif;  
+.box-title-section
+{
+text-align: center;
 }
 
 li
 {
-font-family: 'Roboto', sans-serif;
 margin-top: 1em;
 margin-bottom: 1em;
 padding-left: 10px;      
@@ -181,7 +111,6 @@ padding-left: 10px;
 
 p
 {
-font-family: 'Roboto', sans-serif;
 margin-top: 1em;
 margin-bottom: 1em;
 line-height: 1.5; 
@@ -196,20 +125,17 @@ margin-bottom: 1em;
 
 h2
 {
-font-family: 'Roboto', sans-serif;
-padding-left: 10px;
 font-size: 1.17em;    
 }
 
 h4
-{
-font-family: 'Roboto', sans-serif;    
+{    
 margin-top: 1em;
 margin-bottom: 1em;
 padding-left: 10px;    
 }
 
-.hr-1
+#underline-title
 {
 width: 20%;    
 border: solid 1.5px;    
@@ -218,7 +144,7 @@ margin-top: -16px;
 display: block;        
 }
 
-.hr-2
+.underline-section
 {
 border: solid 2px;    
 color: #78909C;    
@@ -226,23 +152,7 @@ margin-top: -10px;
 margin-bottom: 30px; 
 }
 
-.hr-3
-{     
-border: solid 2px;    
-color: #78909C;    
-margin-top: -10px;    
-margin-bottom: 30px;      
-}
-
-.hr-4
-{    
-border: solid 2px;
-color: #78909C;    
-margin-top: -10px;    
-margin-bottom: 30px;      
-}
-
-.article-8
+#box-hobby
 {
 padding-bottom: 1px;        
 }
@@ -250,7 +160,7 @@ padding-bottom: 1px;
 @media only screen and (min-width: 768px) 
 {
 
-.column
+#body
 {
 display: grid;
 grid-template-columns: 2fr 5fr;
@@ -261,26 +171,23 @@ grid-template-areas:
         "aside section"
 }    
    
-.img-cv 
+#img-cv 
 {  
-border-radius: 50%;
-display: flex;
-margin: 20px auto;
-width: 60%;
-max-width: 320px;
 margin-top: 1px;
 }
 
-.aside-css
+#aside
 {    
 background-color: #BDBDBD;
 order: 1;
 grid-area: aside;
+display: flex;
+flex-direction: column;
 }
 
-.header-css
+.header
 {       
-background-color: #78909C;
+
 justify-content: start;
 padding-left: 30px;
 padding-top: 50px;
@@ -288,36 +195,30 @@ margin-bottom: 60px;
 grid-area: header;
 }
 
-
-.section-css
+#section
 {  
 grid-area: section;
 }
 
-.recommandations-flex
+#recommandations-align
 {
 display: flex;
+justify-content: space-around;
 }
 
-.display-block-content
+.block-text-section
 {
 display: flex;    
 }
 
-.display-block-text-left
+.text-section-align
 {
 display: flex;
 flex-direction: column;
 width: 165px;
 }
 
-.display-block-text-right
-{
-display: flex;
-flex-direction: column;
-}
-
-.hr-1
+#underline-title
 {
 width: 20%;    
 border: solid 1.5px;    
@@ -326,7 +227,7 @@ margin-top: -16px;
 display: block;        
 }
 
-.hr-2
+.underline-section
 {
 border: solid 2px;    
 color: #78909C;    
@@ -335,72 +236,28 @@ margin-bottom: 30px;
 width: 100%; 
 }
 
-.hr-3
-{    
-border: solid 2px;    
-color: #78909C;    
-margin-top: -10px;    
-margin-bottom: 30px; 
-width: 100%;     
-}
-
-.hr-4
-{    
-border: solid 2px;
-color: #78909C;    
-margin-top: -10px;    
-margin-bottom: 30px;
-width: 100%;      
-}
-
-.article-1
+.box-aside-information
 {
 margin-top: 50px;
 }
 
-.article-2
+#box-hobby
 {
-margin-top: 50px;        
+margin-top: auto;        
 }
 
-.article-8
-{
-margin-top: 280px;        
-}
-
-.img-computer
+.img-icon
 {
 width: 20%;  
 }
 
-.img-cycling
-{
-width: 20%; 
-}
-
-.img-illustrateur
-{
-width: 20%;
-}
-
-.img-briefcase
+.img-icons-section
 {
 width: 8%;  
-}
-
-.img-pencil
-{
-width: 8%;  
-}
-
-.img-graduation-cap
-{
-width: 8%;    
 }
 
 .text-icone
 {
-font-family: 'Roboto', sans-serif;
 padding-left: 30px;
 padding-right: 30px;
 } 
@@ -410,19 +267,21 @@ padding-right: 30px;
 text-align: start;
 }
 
-.display-block-text-left
+.box-title-section
+{ 
+text-align: start;               
+margin-left: 40px;
+margin-right: 40px;        
+}
+
+.text-section-align
 {
 padding-left: 30px;        
 }
 
-.display-block-text
+.section-text-information
 {
 padding-left: 30px;        
-}
-
-.text-align-paris
-{
-margin-top: -10px;        
 }
 
 .recommandations-text
@@ -440,14 +299,15 @@ margin-right: 20px;
 margin-left: 16px;
 margin-right: 100px;
 }
-        
+     
 }
 
 @media only screen and (min-width: 1200px) 
 {
-.column
+#body
 {
-width: 55%;        
+width: 100%;
+max-width: 1200px;        
 }
 
 .recommandations-text
@@ -462,39 +322,14 @@ padding-left: 30px;
 padding-right: 30px;       
 }
 
-.hobby-box
-{
-margin-top: 450px;        
-}
-
-.img-computer
-{
-width: 15%;  
-}
-
-.img-cycling
-{
-width: 15%; 
-}
-
-.img-illustrateur
+.img-icon
 {
 width: 15%;
-}
+} 
 
-.img-briefcase
+.img-icone-section
 {
 width: 5%;  
-}
-
-.img-pencil
-{
-width: 5%;  
-}
-
-.img-graduation-cap
-{
-width: 5%;    
 }
 
 }
