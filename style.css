@@ -110,7 +110,9 @@ padding-bottom: 10px;
 
 .box-title-section
 {
-text-align: center;
+text-align: start;               
+margin-left: 40px;
+margin-right: 40px;
 }
 
 li
@@ -300,13 +302,6 @@ padding-bottom: 1px;
  .text-align-icone
  {
  text-align: start;
- }
-
- .box-title-section
- { 
- text-align: start;               
- margin-left: 40px;
- margin-right: 40px;        
  }
 
  .text-section-align
